@@ -1,0 +1,166 @@
+{
+	"name": "Rubyist Light",
+	"colors": {
+		"editor.background": "#fff",
+		"editor.foreground": "#999",
+    "list.activeSelectionIconForeground": "#eee"
+	},
+	"tokenColors": [
+		{
+			"name": "Classes",
+			"scope": [
+				"entity.name.type",
+				"entity.other.inherited-class",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#03C",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#000",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"punctuation.definition.string.begin.ruby",
+				"punctuation.definition.string.end.ruby",
+				"string.quoted.double.ruby",
+				"string.quoted.single.ruby",
+				"string",
+			],
+			"settings": {
+				"foreground": "#090",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "Interpolation",
+			"scope": "meta.embedded.line.ruby",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Strings: Escape Sequences",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#060"
+			}
+		},
+		{
+			"name": "Strings: Regular Expressions",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#090"
+			}
+		},
+		{
+			"name": "Punctuation: Interpolation",
+			"scope": "punctuation.section.embedded.begin.ruby",
+			"settings": {
+				"foreground": "#06F"
+			}
+		},
+		{
+			"name": "Symbols: Hashkeys",
+			"scope": "constant.other.symbol.hashkey",
+			"settings": {
+				"foreground": "#000",
+			}
+		},
+		{
+			"name": "Symbols: Symbols",
+			"scope": "constant.language.symbol",
+			"settings": {
+				"foreground": "#09C",
+			}
+		},
+		{
+			"name": "Variables: Class and Global",
+			"scope": [
+				"variable.other.readwrite.global",
+				"variable.other.readwrite.class",
+			],
+			"settings": {
+				"foreground": "#B10",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "Variables: Instance",
+			"scope": "variable.other.readwrite.instance",
+			"settings": {
+				"foreground": "#06F",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "Variables: Other",
+			"scope": [
+				"variable",
+				"support.variable",
+			],
+			"settings": {
+				"foreground": "#06F",
+			}
+		},
+		{
+			"name": "Constants",
+		"scope": [
+				"constant.language",
+				"support.constant",
+				"variable.language",
+				"variable.other.constant",
+				"constant.numeric",
+				"constant.character",
+				"constant",
+			],
+			"settings": {
+				"foreground": "#F90",
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword.control",
+				"keyword.control",
+				"storage"
+			],
+			"settings": {
+				"foreground": "#B10",
+				"fontStyle": "italic",
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#DDD"
+			}
+		},
+		{
+			"name": "Invalid - Illegal",
+			"scope": [
+				"entity.name.exception",
+				"invalid.illegal",
+			],
+			"settings": {
+				"foreground": "#F00"
+			}
+		},
+	]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "rubyist",
+  "displayName": "Rubyist",
+  "description": "A theme for Rubyists",
+  "version": "1.0.0",
+  "publisher": "first-try-software",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/first-try-software/vs-code-rubyist.git"
+  },
+  "homepage": "https://github.com/first-try-software/vs-code-rubyist/blob/main/README.md",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "keywords": [
+    "ruby",
+    "rubyist",
+    "theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rubyist Light",
+        "uiTheme": "vs",
+        "path": "./themes/rubyist-light-color-theme.json"
+      }
+    ]
+  }
+}
