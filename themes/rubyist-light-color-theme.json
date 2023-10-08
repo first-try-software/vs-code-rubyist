@@ -1,9 +1,22 @@
 {
 	"name": "Rubyist Light",
+	"type": "light",
 	"colors": {
 		"editor.background": "#fff",
-		"editor.foreground": "#888",
-    "list.activeSelectionIconForeground": "#eee"
+		"editor.foreground": "#06F",
+		"editorBracketHighlight.foreground1": "#0be",
+		"editorBracketHighlight.foreground2": "#f90",
+		"editorBracketHighlight.foreground3": "#909",
+		"editorBracketHighlight.foreground4": "#0be",
+		"editorBracketHighlight.foreground5": "#f90",
+		"editorBracketHighlight.foreground6": "#909",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#f00",
+		"editorBracketMatch.background": "#ddd",
+		"editorBracketMatch.border": "#ddd",
+		"editorLineNumber.activeForeground": "#000",
+		"editorLineNumber.foreground": "#ccc",
+		"editor.lineHighlightBackground": "#f4f4f4",
+		"editor.lineHighlightBorder": "#f4f4f4",
 	},
 	"tokenColors": [
 		{
@@ -14,8 +27,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#009",
-				"fontStyle": "bold",
+				"foreground": "#03C",
 			}
 		},
 		{
@@ -25,8 +37,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#03C",
-				"fontStyle": "bold",
+				"foreground": "#000",
 			}
 		},
 		{
@@ -60,7 +71,7 @@
 			"name": "Punctuation: Interpolation",
 			"scope": "punctuation.section.embedded.begin.ruby",
 			"settings": {
-				"foreground": "#06F"
+				"foreground": "#0be"
 			}
 		},
 		{
@@ -74,7 +85,7 @@
 			"name": "Symbols: Symbols",
 			"scope": "constant.language.symbol",
 			"settings": {
-				"foreground": "#09C",
+				"foreground": "#08B",
 			}
 		},
 		{
@@ -93,7 +104,6 @@
 			"scope": "variable.other.readwrite.instance",
 			"settings": {
 				"foreground": "#80D",
-				"fontStyle": "bold",
 			}
 		},
 		{
@@ -118,24 +128,16 @@
 				"constant",
 			],
 			"settings": {
-				"foreground": "#F90",
+				"foreground": "#e80",
 			}
 		},
 		{
 			"name": "Keywords",
 			"scope": [
 				"keyword.control",
+				"keyword.other",
+				"support.function",
 				"storage",
-			],
-			"settings": {
-				"foreground": "#B10",
-				"fontStyle": "italic",
-			}
-		},
-		{
-			"name": "Special Methods",
-			"scope": [
-				"keyword.other.special-method.ruby",
 			],
 			"settings": {
 				"foreground": "#B10",
