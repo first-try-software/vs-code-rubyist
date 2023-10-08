@@ -2,6 +2,10 @@
 
 All notable changes to the "rubyist" extension will be documented in this file.
 
+## [1.3.0]
+
+- Now with support for semantic highlighting and ruby-lsp.
+
 ## [1.2.0]
 
 - Tweaked colors with specs in mind.
